@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "id": "intent_greeting",
+      "name": "Greeting",
+      "description": "Customer opens the chat or sends a greeting message.",
+      "training_phrases": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "I need help",
+        "can you help me"
+      ],
+      "response": "Hello! Welcome to our customer support chat. How can I help you today? You can ask me about orders, refunds, account help or product information. Type 'agent' at any time to speak with a human."
+    },
+    {
+      "id": "intent_order_status",
+      "name": "Order Status",
+      "description": "Customer asks about the status of their order or delivery.",
+      "training_phrases": [
+        "where is my order",
+        "track my order",
+        "order status",
+        "when will my order arrive",
+        "I have not received my order",
+        "my delivery is late",
+        "check my order"
+      ],
+      "response": "I can help you with your order. Please provide your order number so I can look it up for you."
+    },
+    {
+      "id": "intent_refund",
+      "name": "Refund and Return",
+      "description": "Customer asks about returning a product or getting a refund.",
+      "training_phrases": [
+        "I want a refund",
+        "how do I return an item",
+        "return policy",
+        "my item is damaged",
+        "wrong item received",
+        "how long does a refund take",
+        "start a return"
+      ],
+      "response": "I can help you with a return or refund. Our policy allows returns within 30 days of delivery. To start your return, log into your account, go to My Orders, and click Return Item. Refunds are processed within 5 to 7 business days."
+    },
+    {
+      "id": "intent_account_help",
+      "name": "Account Help",
+      "description": "Customer needs help with their account, password or personal details.",
+      "training_phrases": [
+        "reset my password",
+        "forgot password",
+        "my account is locked",
+        "update my email",
+        "change my details",
+        "delete my account",
+        "cannot log in"
+      ],
+      "response": "I can help with your account. For a password reset, click Forgot Password on the login page and enter your email address. You will receive a reset link within a few minutes. For other account changes, log into Account Settings or type 'agent' if you need further help."
+    },
+    {
+      "id": "intent_human_handover",
+      "name": "Human Handover",
+      "description": "Customer requests to speak with a human support agent.",
+      "training_phrases": [
+        "agent",
+        "human",
+        "speak to someone",
+        "talk to a person",
+        "real person",
+        "live support",
+        "transfer me"
+      ],
+      "response": "I will connect you to a support agent now. Please hold on for a moment. If all agents are busy, your request will be logged and a team member will contact you within 24 hours."
+    }
+  ]
+}
